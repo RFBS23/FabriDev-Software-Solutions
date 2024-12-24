@@ -1,7 +1,7 @@
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
-import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: 'FabriDev Software Solutions',
@@ -18,8 +18,8 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        <Analytics />
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
