@@ -15,40 +15,28 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "Carlos M.",
+        profession: '',
+        comment: 'Excelente servicio. Transformaron nuestra idea en una solución funcional y eficiente. ¡Totalmente recomendados!',
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "Ana Pérez",
+        profession: '',
+        comment: 'Su equipo de software es increíble. Nos ayudaron a optimizar nuestros procesos y aumentar la productividad.',
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
-        name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "Luis Gómez",
+        profession: '',
+        comment: 'Gracias a su enfoque innovador, pudimos lanzar nuestro producto rápidamente. Definitivamente volveremos a trabajar con ellos.',
         imgSrc: '/images/testimonial/user3.svg',
     },
     {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
+        name: "Marta Sánchez",
+        profession: '',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user1.svg',
-    },
-    {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user2.svg',
-    },
-    {
-        name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user3.svg',
+        imgSrc: '/images/testimonial/user4.svg',
     },
 ]
 
@@ -106,9 +94,9 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-3">See what others are saying.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black text-opacity-50 lg:mr-48 my-4">See what others are saying.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black text-opacity-25 lg:-mr-32 my-4">See what others are saying.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-3">Opiniones de nuestros clientes.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black text-opacity-50 lg:mr-48 my-4">Hacemos ideas en realidad</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black text-opacity-25 lg:-mr-32 my-4">soluciones de software.</h3>
                     </div>
 
 
@@ -122,14 +110,7 @@ export default class MultipleItems extends Component {
                                     <div className="flex justify-between">
                                         <div>
                                             <h3 className='text-base font-medium pt-4 pb-2'>{items.name}</h3>
-                                            <h3 className='text-xs font-medium  pb-2 opacity-50'>{items.profession}</h3>
-                                        </div>
-                                        <div className="flex">
-                                            <StarIcon width={20} className="star" />
-                                            <StarIcon width={20} className="star" />
-                                            <StarIcon width={20} className="star" />
-                                            <StarIcon width={20} className="star" />
-                                            <StarIcon width={20} className="star" />
+                                            {/*<h3 className='text-xs font-medium  pb-2 opacity-50'>{items.profession}</h3>*/}
                                         </div>
                                     </div>
                                 </div>
