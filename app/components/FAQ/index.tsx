@@ -45,8 +45,8 @@ const FAQ = () => {
                                 </Disclosure.Button>
                                 <Disclosure.Panel
                                     className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Puedes contactarnos a través de nuestro formulario en la sección "Contáctanos" o
-                                    enviarnos un correo directamente a "fabridevsoftwaresolutions@gmail.com". Estaremos
+                                    Puedes contactarnos a través de nuestro formulario en la sección Contáctanos o
+                                    enviarnos un correo directamente a fabridevsoftwaresolutions@gmail.com. Estaremos
                                     encantados de discutir tus ideas.
                                 </Disclosure.Panel>
                             </>
