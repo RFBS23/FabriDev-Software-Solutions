@@ -174,7 +174,7 @@ const FAQ = () => {
                                 </Disclosure.Button>
                                 <Disclosure.Panel
                                     className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Sí, nos aseguramos de que el producto final cumpla con tus expectativas. Ofrecemos revisiones y ajustes según sea necesario.
+                                    Sí, nos aseguramos de que el producto final cumpla con tus expectativas. Ofrecemos revisiones y ajustes según sea necesario(.)
                                 </Disclosure.Panel>
                             </>
                         )}
