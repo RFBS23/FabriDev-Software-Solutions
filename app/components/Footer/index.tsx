@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import {useTranslations} from "next-intl";
-
 // MIDDLE LINKS DATA
 interface ProductType {
     id: number;
@@ -33,7 +31,6 @@ const products: ProductType[] = [
 ]
 
 const footer = () => {
-    const t = useTranslations('Footer');
 
     return (
         <div className="bg-black -mt-40" id="first-section">
@@ -89,10 +86,10 @@ const footer = () => {
                         </div>
                         <div className="flex justify-center md:justify-end">
                             <Link href="/">
-                                <h3 className="text-offwhite pr-6">{t('politicas')}</h3>
+                                <h3 className="text-offwhite pr-6">politicas</h3>
                             </Link>
                             <Link href="/">
-                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">{t('term')}</h3>
+                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">termins</h3>
                             </Link>
                         </div>
                     </div>
