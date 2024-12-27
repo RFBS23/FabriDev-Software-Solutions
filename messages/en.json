@@ -1,0 +1,42 @@
+{
+  "Banner": {
+    "badge": "SOFTWARE SOLUTIONS",
+    "texto2": "Innovation in \n Software and \n IT solutions.",
+    "btncompra": "Explore and buy"
+  },
+  "About": {
+    "titulo": "About us",
+    "subtitulo": "Learn more about us.",
+    "card1": "About us.",
+    "txtcard1": "We are a team passionate about technology, focused on offering innovative solutions to enhance your ideas.",
+    "card2": "Services.",
+    "txtcard2": "We offer software development, web and mobile applications, UX prototyping and custom solutions to meet your technological needs.",
+    "card3": "Our Works.",
+    "txtcard3": "Discover some of our featured projects, designed for clients who trusted our experience."
+  },
+  "Dedicated": {
+    "titulo": "Dedicated to your software and IT solutions.",
+    "subtitulo": "Software development optimizes processes and improves efficiency in all sectors.",
+    "nombre": "Fabrizio Barrios, Software Engineer with AI"
+  },
+  "Digital": {
+    "titulo": "WHO WE ARE",
+    "descripcion": "We are a digital\nagency that builds\namazing products.",
+    "btndig": "Get started"
+  },
+  "Beliefs": {
+    "titulocreencia": "BELIEFS",
+    "subtitulocreencia": "Honesty",
+    "subtitulogrey": "and hard work are our beliefs.",
+    "button": "Contact us",
+    "buildtitulo": "BUILD",
+    "buildescripcion": "Build",
+    "buildescripcion2": " that great idea that you have.",
+    "subcreencia": "Integrity and passion inspire us to move forward.\nCreate unique solutions that transform ideas into tangible realities.",
+    "subconstruye": "Bring your dreams to life with unique technology.\nWe move forward with creativity and commitment every step of the way."
+  },
+  "Footer": {
+    "politicas": "Privacy Policy",
+    "term": "Terms and conditions"
+  }
+}

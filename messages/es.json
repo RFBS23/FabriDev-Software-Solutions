@@ -1,0 +1,42 @@
+{
+  "Banner": {
+    "badge": "SOLUCIONES DE SOFTWARE",
+    "texto2": "Innovación en \n Software y \n soluciones TI.",
+    "btncompra": "Explora y compra"
+  },
+  "About": {
+    "titulo": "ACERCA DE",
+    "subtitulo": "Conoce más sobre nosotros.",
+    "card1": "Nosotros.",
+    "txtcard1": "Somos un equipo apasionado por la tecnología, enfocado en ofrecer soluciones innovadoras para potenciar tus ideas.",
+    "card2": "Servicios.",
+    "txtcard2": "Ofrecemos desarrollo de software, aplicaciones web y móviles, diseño de prototipos UX y soluciones personalizadas para satisfacer tus necesidades tecnológicas.",
+    "card3": "Nuestros Trabajos.",
+    "txtcard3": "Descubre algunos de nuestros proyectos destacados, diseñados para clientes que confiaron en nuestra experiencia."
+  },
+  "Dedicated": {
+    "titulo": "Dedicado a tus soluciones de software. y TI.",
+    "subtitulo": "El desarrollo de software optimiza procesos y mejora la eficiencia en todos los sectores.",
+    "nombre": "Fabrizio Barrios, Ing. de Software con IA"
+  },
+  "Digital": {
+    "titulo": "QUIÉNES SOMOS",
+    "descripcion": "Somos una agencia\ndigital que crea\nproductos increíbles.",
+    "btndig": "Get started"
+  },
+  "Beliefs": {
+    "titulocreencia": "CREENCIAS",
+    "subtitulocreencia": "Honestidad, ",
+    "subtitulogrey": "el esfuerzo y el trabajo duro.",
+    "button": "Contáctanos",
+    "buildtitulo": "CONSTRUYE",
+    "buildescripcion": "Construye",
+    "buildescripcion2": " esa gran idea que tienes.",
+    "subcreencia": "Integridad y pasión nos inspiran a avanzar.\nCrea soluciones únicas que transforman ideas en realidades tangibles.",
+    "subconstruye": "Da vida a tus sueños con tecnología única.\nAvanzamos con creatividad y compromiso en cada paso del camino."
+  },
+  "Footer": {
+    "politicas": "Política de privacidad",
+    "term": "Términos y condiciones"
+  }
+}

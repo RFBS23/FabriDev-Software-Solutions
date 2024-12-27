@@ -1,6 +1,8 @@
 import Image from "next/image";
+import {useTranslations} from "next-intl";
 
 const Banner = () => {
+    const t = useTranslations('Banner');
     return (
         <div className='mx-auto max-w-7xl my-5 sm:py-10 px-6 lg:px-8'>
             <div className='grid grid-cols-1 lg:grid-cols-2 my-10'>
@@ -9,17 +11,17 @@ const Banner = () => {
 
                 <div className="mx-auto sm:mx-0">
                     <div className='py-3 text-center lg:text-start'>
-                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>SOLUCIONES DE SOFTWARE</button>
+                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>{t('badge')}</button>
                     </div>
                     <div className="py-3 text-center lg:text-start">
                         <h1 className='text-4xl lg:text-80xl font-bold text-darkpurple'>
-                            Innovación en <br /> Software y <br /> soluciones TI.
+                            {t('texto2')}
                         </h1>
                     </div>
                     <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
                             <a href={'https://portafolio-fabridev.vercel.app/'} target={'_blank'} style={{ textDecoration: 'none' }}>
-                                Explora y compra
+                                {t('btncompra')}
                             </a>
 
                         </button>

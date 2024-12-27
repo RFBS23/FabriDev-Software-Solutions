@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 
 // MIDDLE LINKS DATA
 interface ProductType {
@@ -32,6 +33,8 @@ const products: ProductType[] = [
 ]
 
 const footer = () => {
+    const t = useTranslations('Footer');
+
     return (
         <div className="bg-black -mt-40" id="first-section">
             <div className="mx-auto max-w-2xl pt-48 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -44,23 +47,16 @@ const footer = () => {
                         <div className='flex gap-4'>
                             <div className='footer-icons' style={{background: 'white'}}>
                                 <Link href="https://www.facebook.com/share/18H3BUvgA2/?mibextid=qi2Omg"
-                                      target={'_blank'}><Image src={'/images/footer/facebook-color.svg'} alt="facebook"
-                                                               width={20} height={20}/></Link>
+                                      target={'_blank'}><Image src={'/images/footer/facebook-color.svg'} alt="facebook" width={20} height={20}/></Link>
                             </div>
                             <div className='footer-icons' style={{background: 'white'}}>
-                                <Link href="https://youtube.com/@fabridev" target={'_blank'}><Image
-                                    src={'/images/footer/youtube-color.svg'} alt="youtube" width={20}
-                                    height={20}/></Link>
+                                <Link href="https://youtube.com/@fabridev" target={'_blank'}><Image src={'/images/footer/youtube-color.svg'} alt="youtube" width={20} height={20}/></Link>
                             </div>
                             <div className='footer-icons' style={{background: 'white'}}>
-                                <Link href="https://www.instagram.com/fabridevperu?igsh=MXBtcDU2eDAwYW92Nw=="
-                                      target={'_blank'}><Image src={'/images/footer/instagram-color.svg'}
-                                                               alt="instagram" width={20} height={20}/></Link>
+                                <Link href="https://www.instagram.com/fabridevperu?igsh=MXBtcDU2eDAwYW92Nw==" target={'_blank'}><Image src={'/images/footer/instagram-color.svg'} alt="instagram" width={20} height={20}/></Link>
                             </div>
                             <div className='footer-icons' style={{background: 'white'}}>
-                                <Link href="https://www.tiktok.com/@fabriziobarrios_19?_t=8sRzzyWfXpl&_r=1"
-                                      target={'_blank'}><Image src={'/images/footer/tiktok.svg'}
-                                                               alt="tik tok" width={30} height={30}/></Link>
+                                <Link href="https://www.tiktok.com/@fabriziobarrios_19?_t=8sRzzyWfXpl&_r=1" target={'_blank'}><Image src={'/images/footer/tiktok.svg'} alt="tik tok" width={30} height={30}/></Link>
                             </div>
                         </div>
                     </div>
@@ -93,10 +89,10 @@ const footer = () => {
                         </div>
                         <div className="flex justify-center md:justify-end">
                             <Link href="/">
-                                <h3 className="text-offwhite pr-6">Política de privacidad</h3>
+                                <h3 className="text-offwhite pr-6">{t('politicas')}</h3>
                             </Link>
                             <Link href="/">
-                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Términos y condiciones</h3>
+                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">{t('term')}</h3>
                             </Link>
                         </div>
                     </div>

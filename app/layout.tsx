@@ -1,26 +1,7 @@
-import { Analytics } from '@vercel/analytics/next';
-import './globals.css';
-import Navbar from './components/Navbar/index';
-import Footer from './components/Footer/index';
-
-export const metadata = {
-  title: 'FabriDev Software Solutions',
-  description: 'Landing page',
-}
-
 export default function RootLayout({
-  children,
+   children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
-    <html lang="es">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-        <Analytics />
-      </body>
-    </html>
-  )
+    return children;
 }

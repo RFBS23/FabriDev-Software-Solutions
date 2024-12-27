@@ -6,6 +6,8 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
+import Localswitcher from "@/app/components/Navbar/Localswitcher";
+import {useTranslations} from "next-intl";
 
 interface NavigationItem {
     name: string;
@@ -28,7 +30,6 @@ function classNames(...classes: string[]) {
 }
 
 const Navbar = () => {
-
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
@@ -66,10 +67,10 @@ const Navbar = () => {
                                         </Link>
                                     ))}
                                 </div>
-
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform />
+                            <Localswitcher />
                         </div>
 
 

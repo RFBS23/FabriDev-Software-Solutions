@@ -1,6 +1,8 @@
 import Image from "next/image";
+import {useTranslations} from "next-intl";
 
 const Dedicated = () => {
+    const t = useTranslations('Dedicated');
     return (
         <div className="relative">
 
@@ -17,9 +19,9 @@ const Dedicated = () => {
                     {/* COLUMN-2 */}
                     <div className="relative">
                         <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute comma-pos hidden lg:block" />
-                        <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">Dedicado a tus soluciones de software. y TI.</h2>
-                        <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">El desarrollo de software optimiza procesos y mejora la eficiencia en todos los sectores.</p>
-                        <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start"> Fabrizio Barrios, Software Engineer</p>
+                        <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">{t('titulo')}</h2>
+                        <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">{t('subtitulo')}</p>
+                        <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start"> {t('nombre')}</p>
                     </div>
 
                 </div>
