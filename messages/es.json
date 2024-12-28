@@ -35,8 +35,17 @@
     "subcreencia": "Integridad y pasión nos inspiran a avanzar.\nCrea soluciones únicas que transforman ideas en realidades tangibles.",
     "subconstruye": "Da vida a tus sueños con tecnología única.\nAvanzamos con creatividad y compromiso en cada paso del camino."
   },
+  "Ourteam": {
+    "tituloteam": "Nuestro equipo cree que usted merece sólo lo mejor.",
+    "subtitulo": "Nos esforzamos por brindar excelencia, dedicación e innovación todos los días."
+  },
+  "wework": {
+    "titulo1": "Creamos en múltiples dominios.",
+    "titulo2": "Innovamos en diversas áreas.",
+    "titulo3": "Somos líderes en varios campos."
+  },
   "Footer": {
-    "politicas": "Política de privacidad",
+    "polipriv": "Política de privacidad",
     "term": "Términos y condiciones"
   }
 }

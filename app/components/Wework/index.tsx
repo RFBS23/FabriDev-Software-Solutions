@@ -2,7 +2,6 @@
 import Slider from "react-slick";
 import React, { Component } from "react";
 import Image from "next/image";
-
 // CAROUSEL DATA
 
 interface DataType {
@@ -46,9 +45,7 @@ const postData: DataType[] = [
 
 // CAROUSEL SETTINGS
 
-
 export default class MultipleItems extends Component {
-
     render() {
         const settings = {
             dots: false,
@@ -92,18 +89,14 @@ export default class MultipleItems extends Component {
             ]
         };
 
-
         return (
             <div className="bg-wework py-32">
-
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 '>
-
                     <div className="text-center">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">We work in several verticals.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">We work in several verticals.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">We work in several verticals.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">Creamos en múltiples dominios.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">Innovamos en diversas áreas.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">Somos líderes en varios campos.</h3>
                     </div>
-
                 </div>
 
                 <Slider {...settings}>
@@ -120,9 +113,7 @@ export default class MultipleItems extends Component {
                         </div>
                     ))}
                 </Slider>
-
             </div>
-
         );
     }
 }
