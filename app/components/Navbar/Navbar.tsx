@@ -8,6 +8,7 @@ import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
 import Localswitcher from "@/app/components/Navbar/Localswitcher";
 import {useTranslations} from "next-intl";
+import LocalSwitcher from "@/app/components/Navbar/Localswitcher";
 
 interface NavigationItem {
     name: string;
@@ -40,7 +41,7 @@ const Navbar = () => {
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center">
-                        <div className="flex flex-1 items-center sm:justify-between gap-4">
+                        <div className="flex flex-1 items-center sm:justify-between">
 
                             {/* LOGO */}
 
@@ -52,7 +53,7 @@ const Navbar = () => {
 
                             {/* LINKS */}
 
-                            <div className="hidden lg:flex items-center border-right ">
+                            <div className="hidden lg:flex items-center border-right gap-4">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
                                         <Link
@@ -69,11 +70,16 @@ const Navbar = () => {
                                             {item.name}
                                         </Link>
                                     ))}
+                                    <div>
+                                        <h5>{t('switch')} &#x1F310;</h5>
+                                        <LocalSwitcher/>
+                                    </div>
+
                                 </div>
+
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform />
-                            <Localswitcher />
+                            <Contactusform/>
                         </div>
 
 
@@ -82,7 +88,7 @@ const Navbar = () => {
                         {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                        <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 
                         {/* DRAWER LINKS DATA */}

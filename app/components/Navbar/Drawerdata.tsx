@@ -2,6 +2,8 @@ import React, {Fragment, useState} from "react";
 import Link from "next/link";
 import Contactusform from "./Contactus";
 import {Dialog, Transition} from "@headlessui/react";
+import {useTranslations} from "next-intl";
+import LocalSwitcher from "@/app/components/Navbar/Localswitcher";
 
 interface NavigationItem {
     name: string;
@@ -10,14 +12,6 @@ interface NavigationItem {
     target?: string;
 }
 
-const navigation: NavigationItem[] = [
-    { name: 'Nosotros', href: '#aboutus-section', current: true },
-    { name: 'Servicios', href: '#services-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Soporte', href: '#blog-section', current: false },
-    { name: 'Novedades', href: '#testimonial-section', current: false },
-    { name: 'Tienda', href: 'https://portafolio-fabridev.vercel.app/', current: false, target: '_blank' },
-]
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
@@ -25,6 +19,19 @@ function classNames(...classes: string[]) {
 
 const Data = () => {
     let [isOpen, setIsOpen] = useState(false)
+
+    const t = useTranslations('Navigation');
+    const c = useTranslations('contacto');
+
+    const navigation: NavigationItem[] = [
+        { name: t('aboutus'), href: '#aboutus-section', current: false },
+        { name: t('services'), href: '#services-section', current: false },
+        { name: t('faq'), href: '#faq-section', current: false },
+        { name: t('blog'), href: '#blog-section', current: false },
+        { name: t('testimonials'), href: '#testimonial-section', current: false },
+        { name: t('store'), href: 'https://portafolio-fabridev.vercel.app/', current: false, target: '_blank' },
+    ]
+
 
     const [inputValues, setInputValues] = useState({
         input1: '',
@@ -60,6 +67,7 @@ const Data = () => {
     }
 
     return (
+
         <div className="rounded-md max-w-sm w-full mx-auto">
             <div className="flex-1 space-y-4 py-1">
                 <div className="sm:block">
@@ -74,17 +82,20 @@ const Data = () => {
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
                                 target={item.target} // Usa target de NavigationItem
-                                rel={item.target === '_blank' ? 'noopener noreferrer' : undefined} // Agrega rel para seguridad
-                            >
+                                rel={item.target === '_blank' ? 'noopener noreferrer' : undefined}>
                                 {item.name}
                             </Link>
                         ))}
                         {/**/}
                         <div className="mt-4"></div>
-                        <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded" onClick={openModal}>
-                            Contactar
+                        <button
+                            className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded"
+                            onClick={openModal}>
+                            {c('btncontact')}
                         </button>
-                        {/* <Contactusform /> */}
+                        <Contactusform/>
+                        <h5>{t('switch')} &#x1F310;</h5>
+                        {/**/}<LocalSwitcher/>
                     </div>
                 </div>
             </div>
@@ -128,73 +139,50 @@ const Data = () => {
                                                 </button>
                                             </div>
                                         </div>
-                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contact
-                                            us now? Want to send us a feedback?</p>
-                                        <form action="#" className="space-y-8" onSubmit={handleSubmit}>
+                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">{c('modaltxt')}</p>
+                                        <form action="https://formsubmit.co/846aacae6735ea4fc6916ea826bf059c"
+                                              method="POST" className="space-y-8">
                                             <div>
                                                 <label htmlFor="text"
-                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
-                                                    Name</label>
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">{c('nombre')}</label>
                                                 <input
                                                     id="text"
-
-                                                    name="input1"
-                                                    value={inputValues.input1}
-                                                    onChange={handleChange}
-
+                                                    name={c('nombre')}
                                                     type="text"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="Name..."
+                                                    placeholder={c('placeholderNombre')}
                                                 />
                                             </div>
                                             <div>
                                                 <label htmlFor="email"
-                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
-                                                    email</label>
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">{c('email')}</label>
                                                 <input
                                                     id="email"
-                                                    name="input2"
-                                                    value={inputValues.input2}
-                                                    onChange={handleChange}
-
+                                                    name={c('email')}
                                                     type="email"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="xyz@email.com"
+                                                    placeholder={c('placeholderCorreo')}
                                                 />
                                             </div>
                                             <div className="sm:col-span-2">
                                                 <label htmlFor="message"
-                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
-                                                    message</label>
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">{c('mensaje')}</label>
                                                 <textarea
                                                     id="message"
-                                                    name="input3"
-                                                    value={inputValues.input3}
-                                                    onChange={handleChange}
+                                                    name={c('mensaje')}
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="Leave a comment..."></textarea>
+                                                    placeholder={c('placeholderMensaje')}></textarea>
                                             </div>
                                             <button type="submit"
-                                                    onClick={handleClick}
-                                                    disabled={isDisabled}
-                                                    className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-blue focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
-                                                message
+                                                    className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-blue focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">{c('btnEnviar')}
                                             </button>
-
+                                            <input name="_next" type="hidden" value="https://fabridev.vercel.app/"/>
+                                            <input name="_captcha" type="hidden" value="false"/>
                                         </form>
-
-                                    </div>
-
-                                    {/* */}
-                                    <div className='flex justify-end'>
-                                        <button type="button"
-                                                onClick={closeModal}
-                                                className="py-3 px-5 mt-2 text-sm font-medium w-50 text-center text-black rounded-lg bg-red hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Close
-                                        </button>
                                     </div>
 
                                 </Dialog.Panel>

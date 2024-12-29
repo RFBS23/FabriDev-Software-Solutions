@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { ChangeEvent, useTransition } from 'react';
 
@@ -15,10 +15,11 @@ export default function LocalSwitcher() {
             router.replace(`/${nextLocale}`);
         });
     };
+    const t = useTranslations('switcher');
     return (
         <select defaultValue={localActive} onChange={onSelectChange} disabled={isPending} className="minimal">
-            <option value='es'>Español</option>
-            <option value='en'>English</option>
+            <option value='es'>{t('espanish')}</option>
+            <option value='en'>{t('ingles')}</option>
         </select>
     );
 }

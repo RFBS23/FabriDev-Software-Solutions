@@ -1,11 +1,16 @@
 {
+  "switcher": {
+    "espanish": "Spanish",
+    "ingles": "English"
+  },
   "Navigation": {
     "aboutus": "About us",
     "services": "Services",
     "faq": "FAQ",
     "blog": "Blog",
     "testimonials": "Testimonials",
-    "store": "Store"
+    "store": "Store",
+    "switch": "Choose language"
   },
   "contacto": {
     "btncontact": "Contact us",
@@ -61,7 +66,13 @@
   "wework": {
     "titulo1": "We create in multiple domains.",
     "titulo2": "We innovate across diverse areas.",
-    "titulo3": "We lead in various fields."
+    "titulo3": "We lead in various fields.",
+    "titulo4": "We lead in new ideas.",
+    "titulo5": "We transform the great challenges.",
+    "titulo6": "We develop key solutions.",
+    "titulo7": "We drive the digital future.",
+    "fundador": "Founder",
+    "nombre": "Fabrizio Barrios"
   },
   "Footer": {
     "politicas": "Privacy Policy",
