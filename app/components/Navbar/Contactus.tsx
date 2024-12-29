@@ -1,8 +1,8 @@
 "use client"
 import { Dialog, Transition } from '@headlessui/react';
-import { Fragment, useState } from 'react';
+import {Fragment, useEffect, useState} from 'react';
 import Link from 'next/link';
-
+import {useTranslations} from "next-intl";
 
 const Contactusform = () => {
     let [isOpen, setIsOpen] = useState(false)
@@ -26,7 +26,6 @@ const Contactusform = () => {
     // FORM SUBMIT
     const handleSubmit = (event: { preventDefault: () => void; }) => {
         event.preventDefault();
-        // handle form submission
     };
 
     const isDisabled = Object.values(inputValues).some((value) => value === '');
@@ -40,6 +39,9 @@ const Contactusform = () => {
         setIsOpen(true)
     }
 
+
+
+    const t = useTranslations('contacto');
     return (
         <>
             <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
@@ -49,8 +51,8 @@ const Contactusform = () => {
                     </button>
                 </div> */}
                 <div className='hidden lg:block'>
-                    <button type="button" className='justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white' onClick={openModal}>
-                        Contactar
+                    <button type="button" className='justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-15 navbutton rounded-full hover:bg-navyblue hover:text-white' onClick={openModal}>
+                        {t('btncontact')}
                     </button>
                 </div>
             </div>
@@ -87,64 +89,58 @@ const Contactusform = () => {
                                             <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
                                                 FabriDev Software Solutions
                                             </Link>
+                                            <div className='flex justify-end'>
+                                                <button type="button"
+                                                        onClick={closeModal}
+                                                        className="py-3 px-5 mt-2 text-sm font-medium w-50 text-center text-black rounded-lg bg-red hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 border-danger">X
+                                                </button>
+                                            </div>
                                         </div>
-                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Contact us now? Want to send us a feedback?</p>
-                                        <form action="#" className="space-y-8" onSubmit={handleSubmit}>
+                                        <p className="mb-8 lg:mb-16 mt-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">{t('modaltxt')}</p>
+                                        <form action="https://formsubmit.co/846aacae6735ea4fc6916ea826bf059c"
+                                              method="POST" className="space-y-8">
                                             <div>
-                                                <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your Name</label>
+                                                <label htmlFor="text"
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">{t('nombre')}</label>
                                                 <input
                                                     id="text"
-
-                                                    name="input1"
-                                                    value={inputValues.input1}
-                                                    onChange={handleChange}
-
+                                                    name={t('nombre')}
                                                     type="text"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="Name..."
+                                                    placeholder={t('placeholderNombre')}
                                                 />
                                             </div>
                                             <div>
-                                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                                                <label htmlFor="email"
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">{t('email')}</label>
                                                 <input
                                                     id="email"
-                                                    name="input2"
-                                                    value={inputValues.input2}
-                                                    onChange={handleChange}
-
+                                                    name={t('email')}
                                                     type="email"
                                                     autoComplete="current-password"
                                                     required
                                                     className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                                    placeholder="xyz@email.com"
+                                                    placeholder={t('placeholderCorreo')}
                                                 />
                                             </div>
                                             <div className="sm:col-span-2">
-                                                <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                                                <label htmlFor="message"
+                                                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">{t('mensaje')}</label>
                                                 <textarea
                                                     id="message"
-                                                    name="input3"
-                                                    value={inputValues.input3}
-                                                    onChange={handleChange}
-                                                    className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="Leave a comment..."></textarea>
+                                                    name={t('mensaje')}
+                                                    className="relative block w-full appearance-none  rounded-md border border-linegrey px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                                    placeholder={t('placeholderMensaje')}></textarea>
                                             </div>
                                             <button type="submit"
-                                                onClick={handleClick}
-                                                disabled={isDisabled}
-                                                className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-blue focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
-
+                                                    className="py-3 px-5 text-sm disabled:opacity-50 font-medium w-full text-center text-white rounded-lg bg-blue focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">{t('btnEnviar')}
+                                            </button>
+                                            <input name="_next" type="hidden" value="https://fabridev.vercel.app/"/>
+                                            <input name="_captcha" type="hidden" value="false"/>
                                         </form>
-
                                     </div>
-
-                                    {/* <div className='flex justify-end'>
-                                        <button type="button"
-                                            onClick={closeModal}
-                                            className="py-3 px-5 mt-2 text-sm font-medium w-50 text-center text-white rounded-lg bg-red hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Close</button>
-                                    </div> */}
-
                                 </Dialog.Panel>
                             </Transition.Child>
                         </div>

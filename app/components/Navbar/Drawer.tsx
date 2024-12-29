@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
+import {useTranslations} from "next-intl";
 
 
 interface DrawerProps {
@@ -10,7 +11,6 @@ interface DrawerProps {
 }
 
 const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
-
     return (
         <main
             className={

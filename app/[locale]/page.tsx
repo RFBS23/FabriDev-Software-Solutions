@@ -12,10 +12,13 @@ import Testimonials from '../components/Testimonials';
 import Articles from '../components/Articles';
 import Joinus from '../components/Joinus';
 import Insta from '../components/Insta';
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
       <main>
+          <Navbar/>
           <Banner/>
           <Aboutus/>
           <Dedicated/>
@@ -30,6 +33,7 @@ export default function Home() {
           <Articles/>
           <Joinus/>
           <Insta/>
+          <Footer/>
       </main>
   )
 }

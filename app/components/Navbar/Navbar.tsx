@@ -16,14 +16,7 @@ interface NavigationItem {
     target?: string;
 }
 
-const navigation: NavigationItem[] = [
-    { name: 'Nosotros', href: '#aboutus-section', current: false },
-    { name: 'Servicios', href: '#services-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: '#blog-section', current: false },
-    { name: 'Testimonios', href: '#testimonial-section', current: false },
-    { name: 'Tienda', href: 'https://portafolio-fabridev.vercel.app/', current: false, target: '_blank' },
-]
+
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
@@ -31,13 +24,23 @@ function classNames(...classes: string[]) {
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
+    const t = useTranslations('Navigation');
+
+    const navigation: NavigationItem[] = [
+        { name: t('aboutus'), href: '#aboutus-section', current: false },
+        { name: t('services'), href: '#services-section', current: false },
+        { name: t('faq'), href: '#faq-section', current: false },
+        { name: t('blog'), href: '#blog-section', current: false },
+        { name: t('testimonials'), href: '#testimonial-section', current: false },
+        { name: t('store'), href: 'https://portafolio-fabridev.vercel.app/', current: false, target: '_blank' },
+    ]
 
     return (
         <Disclosure as="nav" className="navbar">
             <>
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center">
-                        <div className="flex flex-1 items-center sm:justify-between">
+                        <div className="flex flex-1 items-center sm:justify-between gap-4">
 
                             {/* LOGO */}
 

@@ -1,4 +1,23 @@
 {
+  "Navigation": {
+    "aboutus": "About us",
+    "services": "Services",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "store": "Store"
+  },
+  "contacto": {
+    "btncontact": "Contact us",
+    "modaltxt": "Contact us now? Want to send us a feedback?",
+    "nombre": "Your name",
+    "email": "Your email",
+    "mensaje": "Your message",
+    "placeholderNombre": "Enter your name",
+    "placeholderCorreo" : "Enter your email",
+    "placeholderMensaje": "Leave a comment...",
+    "btnEnviar": "Send message"
+  },
   "Banner": {
     "badge": "SOFTWARE SOLUTIONS",
     "texto2": "Innovation in \n Software and \n IT solutions.",

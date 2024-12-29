@@ -1,8 +1,6 @@
 "use client"
 import Navbar from './Navbar';
 import React, { useEffect } from 'react';
-import Localswitcher from "@/app/components/Navbar/Localswitcher";
-
 const Navbarin: React.FC = () => {
     useEffect(() => {
         // The debounce function receives our function as a parameter
