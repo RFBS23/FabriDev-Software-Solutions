@@ -11,7 +11,7 @@ const Index = () => {
                 {t('subtitulo')}
             </h3>
             <div className='grid grid-cols-1 my-16'>
-                <Image src="/images/team/teamimg.png" alt="office-image" height={684} width={1296} />
+                <Image className="rounded-3xl" src="/images/team/team.png" alt="office-image" height={684} width={1296} />
             </div>
         </div>
     );

@@ -30,7 +30,8 @@ export default async function LocaleLayout({
       <html lang={locale}>
       <body>
       <NextIntlClientProvider messages={messages}>
-        {children}
+          {children}
+          <Analytics/>
       </NextIntlClientProvider>
       </body>
       </html>

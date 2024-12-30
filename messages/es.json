@@ -63,6 +63,15 @@
     "tituloteam": "Nuestro equipo cree que usted merece sólo lo mejor.",
     "subtitulo": "Nos esforzamos por brindar excelencia, dedicación e innovación todos los días."
   },
+  "Featured": {
+    "txt1": "Diseños innovadores",
+    "txt2": "Proyectos creativos",
+    "txt3": "Ideas de alto nivel",
+    "txtslider1": "Programación web para crear soluciones dinámicas.",
+    "txtslider2": "Diseño UX que mejora la experiencia digital.",
+    "txtslider3": "Experiencia de usuario y diseño web.",
+    "txtslider4": "Desarrollo de aplicaciones moviles."
+  },
   "wework": {
     "titulo1": "Creamos en múltiples dominios.",
     "titulo2": "Innovamos en diversas áreas.",
@@ -73,6 +82,43 @@
     "titulo7": "Impulsamos el futuro digital.",
     "fundador": "Fundador",
     "nombre": "Fabrizio Barrios"
+  },
+  "Faq": {
+    "titulo": "Preguntas Frecuentes",
+    "subtitulo": "Preguntas mas Frecuentes.",
+    "pregunta1": "¿Qué servicios ofrece FabriDev?",
+    "respuesta1": "Ofrecemos desarrollo de software personalizado, creación de aplicaciones web y móviles, diseño de prototipos UX y soluciones tecnológicas adaptadas a tus necesidades.",
+    "pregunta2": "¿Cómo puedo contratar sus servicios?",
+    "respuesta2": "Puedes contactarnos a través de nuestro formulario en la sección Contáctanos o enviarnos un correo directamente a fabridevsoftwaresolutions@gmail.com. Estaremos encantados de discutir tus ideas.",
+    "pregunta3": "¿Cuánto tiempo toma desarrollar un proyecto?",
+    "respuesta3": "El tiempo depende de la complejidad y los requisitos del proyecto. Podemos darte una\n                                    estimación una vez analicemos tus necesidades.",
+    "pregunta4": "¿Qué tecnologías utilizan en sus desarrollos?",
+    "respuesta4": "Trabajamos con las tecnologías más modernas, como C-sharp, React, Asp.net, Android entre otros y bases de datos como MySQL o SQL Server. Siempre elegimos las herramientas más adecuadas para cada proyecto.",
+    "pregunta5": "¿Proporcionan mantenimiento después del desarrollo?",
+    "respuesta5": "Sí, ofrecemos planes de mantenimiento para asegurarnos de que tu software funcione perfectamente y se mantenga actualizado.",
+    "pregunta6": "¿Puedo realizar cambios en el diseño durante el desarrollo?",
+    "respuesta6": "Claro, ofrecemos revisiones en puntos clave del proyecto. Trabajamos contigo para asegurarnos de que el resultado final cumpla con tus expectativas.",
+    "pregunta7": "¿Qué diferencia a FabriDev de otras empresas de desarrollo?",
+    "respuesta7": "Nuestra creatividad, enfoque en la experiencia del usuario, y soluciones personalizadas nos destacan. Nos dedicamos a convertir tus ideas en productos innovadores.",
+    "pregunta8": "¿Tienen garantías de satisfacción?",
+    "respuesta8": "Sí, nos aseguramos de que el producto final cumpla con tus expectativas. Ofrecemos revisiones y ajustes según sea necesario."
+  },
+  "testimonios": {
+    "titulo": "Opiniones de nuestros clientes.",
+    "subtitulo1": "Hacemos ideas en realidad",
+    "subtitulo2": "soluciones de software.",
+    "comentario1": "Excelente servicio. Transformaron nuestra idea en una solución funcional y eficiente. ¡Totalmente recomendados!",
+    "comentario2": "Su equipo de software es increíble. Nos ayudaron a optimizar nuestros procesos y aumentar la productividad.",
+    "comentario3": "Gracias a su enfoque innovador, pudimos lanzar nuestro producto rápidamente. Definitivamente volveremos a trabajar con ellos.",
+    "comentario4": "El equipo superó nuestras expectativas. Su capacidad para transformar ideas en soluciones innovadoras es impresionante. ¡Altamente recomendados!",
+    "nombre1": "Carlos Matos",
+    "nombre2": "Ana Pérez",
+    "nombre3": "Luis Gómez",
+    "nombre4": "Marta Sánchez"
+  },
+  "Articulos": {
+    "titulo": "Articulos",
+    "subtitulo": "Nuestra última publicación."
   },
   "Footer": {
     "polipriv": "Política de privacidad",
