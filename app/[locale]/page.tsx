@@ -35,7 +35,6 @@ export default function Home() {
           <Joinus/>
           <Insta/>
           <Footer/>
-              <Analytics/>
       </main>
   )
 }
