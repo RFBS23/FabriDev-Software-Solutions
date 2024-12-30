@@ -1,3 +1,4 @@
+/*
 "use client";
 import Slider from "react-slick";
 import React from "react";
@@ -128,3 +129,4 @@ const MultipleItems: React.FC = () => {
 };
 
 export default MultipleItems;
+*/
