@@ -14,6 +14,7 @@ import Joinus from '../components/Joinus';
 import Insta from '../components/Insta';
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
+import {Analytics} from "@vercel/analytics/next";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
           <Joinus/>
           <Insta/>
           <Footer/>
+              <Analytics/>
       </main>
   )
 }
