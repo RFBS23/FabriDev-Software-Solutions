@@ -14,7 +14,7 @@ interface DataType {
 
 // Wrapper para pasar `t` como prop
 export default function MultipleItemsWrapper() {
-    const t = useTranslations('Featured'); // Obtén la función de traducción
+    const t = useTranslations('Featured');
 
     return <MultipleItems t={t} />;
 }
