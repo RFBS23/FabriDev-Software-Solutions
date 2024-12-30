@@ -1,4 +1,3 @@
-/*
 "use client";
 import Slider from "react-slick";
 import React from "react";
@@ -26,7 +25,7 @@ const MultipleItems: React.FC = () => {
             name: "Publicado por FabriDev",
             date: '6 de junio del 2024',
             imgSrc: '/images/articles/article.png',
-        },
+        },/*
         {
             time: "5 min",
             heading: 'We Launch Delia',
@@ -74,7 +73,7 @@ const MultipleItems: React.FC = () => {
             name: "Published on Startupon",
             date: 'August 19, 2021',
             imgSrc: '/images/articles/article3.png',
-        },
+        },*/
     ];
 
     const settings = {
@@ -129,4 +128,3 @@ const MultipleItems: React.FC = () => {
 };
 
 export default MultipleItems;
-*/
