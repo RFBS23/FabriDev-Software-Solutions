@@ -25,30 +25,6 @@ const MultipleItems: React.FC = () => {
             name: "Publicado por FabriDev",
             date: '6 de junio del 2024',
             imgSrc: '/images/articles/article.png',
-        },/*
-        {
-            time: "5 min",
-            heading: 'We Launch Delia',
-            heading2: 'Webflow this Week!',
-            name: "Published on Startupon",
-            date: 'August 19, 2021',
-            imgSrc: '/images/articles/article.png',
-        },
-        {
-            time: "5 min",
-            heading: 'We Launch Delia',
-            heading2: 'Webflow this Week!',
-            name: "Published on Startupon",
-            date: 'August 19, 2021',
-            imgSrc: '/images/articles/article2.png',
-        },
-        {
-            time: "5 min",
-            heading: 'We Launch Delia',
-            heading2: 'Webflow this Week!',
-            name: "Published on Startupon",
-            date: 'August 19, 2021',
-            imgSrc: '/images/articles/article3.png',
         },
         {
             time: "5 min",
@@ -73,7 +49,31 @@ const MultipleItems: React.FC = () => {
             name: "Published on Startupon",
             date: 'August 19, 2021',
             imgSrc: '/images/articles/article3.png',
-        },*/
+        },
+        {
+            time: "5 min",
+            heading: 'We Launch Delia',
+            heading2: 'Webflow this Week!',
+            name: "Published on Startupon",
+            date: 'August 19, 2021',
+            imgSrc: '/images/articles/article.png',
+        },
+        {
+            time: "5 min",
+            heading: 'We Launch Delia',
+            heading2: 'Webflow this Week!',
+            name: "Published on Startupon",
+            date: 'August 19, 2021',
+            imgSrc: '/images/articles/article2.png',
+        },
+        {
+            time: "5 min",
+            heading: 'We Launch Delia',
+            heading2: 'Webflow this Week!',
+            name: "Published on Startupon",
+            date: 'August 19, 2021',
+            imgSrc: '/images/articles/article3.png',
+        }
     ];
 
     const settings = {

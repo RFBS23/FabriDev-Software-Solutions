@@ -1,15 +1,19 @@
 'use client';
 import './not-found.css';
 import './bootstrap/bootstrap.css';
+import './bootstrap/bootstrap.bundle.min.js';
 
 
 export default function NotFound() {
     return (
         <html>
         <head>
-            <link href="./not-found.css" rel="stylesheet"/>
             <link href="https://fonts.gstatic.com" rel="preconnect"/>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+                rel="stylesheet"/>
         </head>
+
+
         <body style={{userSelect: "none", background: "#f6f9ff"}}>
         <main>
             <div className="container">
@@ -25,7 +29,8 @@ export default function NotFound() {
                     </a>
                     <img src="/images/logo/not-found.svg" className="img-fluid py-5" alt="Page Not Found"/>
                     <div className="credits">
-                        Designed by <a className="text-decoration-none" href="https://portafolio-fabridev.vercel.app/" target="_blank">FabriDev</a>
+                        Designed by <a className="text-decoration-none" href="https://portafolio-fabridev.vercel.app/"
+                                       target="_blank">FabriDev</a>
                     </div>
                 </section>
 
