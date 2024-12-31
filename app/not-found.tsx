@@ -1,8 +1,6 @@
 'use client';
 import './not-found.css';
 import './bootstrap/bootstrap.css';
-import './bootstrap/bootstrap.bundle.min.js';
-
 
 export default function NotFound() {
     return (
@@ -12,14 +10,10 @@ export default function NotFound() {
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
                 rel="stylesheet"/>
         </head>
-
-
         <body style={{userSelect: "none", background: "#f6f9ff"}}>
         <main>
             <div className="container">
-
-                <section
-                    className="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
+                <section className="section error-404 min-vh-100 d-flex flex-column align-items-center justify-content-center">
                     <h1>404</h1>
                     <h2 className="text-center">The page you are looking for doesn t exist.</h2>
                     <h2 className="text-center">La página que estás buscando no existe.</h2>
@@ -28,12 +22,9 @@ export default function NotFound() {
                         Volver a la página anterior
                     </a>
                     <img src="/images/logo/not-found.svg" className="img-fluid py-5" alt="Page Not Found"/>
-                    <div className="credits">
-                        Designed by <a className="text-decoration-none" href="https://portafolio-fabridev.vercel.app/"
-                                       target="_blank">FabriDev</a>
+                    <div className="credits">Designed by <a className="text-decoration-none" href="https://portafolio-fabridev.vercel.app/" target="_blank">FabriDev</a>
                     </div>
                 </section>
-
             </div>
         </main>
         {/*
