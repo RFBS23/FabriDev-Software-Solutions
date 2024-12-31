@@ -26,6 +26,7 @@ class MultipleItems extends Component<{ t: (key: string) => string }> {
         const { t } = this.props; // Usa la función `t` desde las props
 
         const postData: DataType[] = [
+            /*
             {
                 heading: 'txtslider1',
                 imgSrc: '/images/featured/feat1.jpg',
@@ -41,7 +42,7 @@ class MultipleItems extends Component<{ t: (key: string) => string }> {
             {
                 heading: 'txtslider4',
                 imgSrc: '/images/featured/feat3-1.jpg',
-            },
+            },*/
         ];
 
         const settings = {
