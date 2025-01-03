@@ -121,6 +121,9 @@
     "subtitulo": "Nuestra última publicación."
   },
   "Footer": {
+    "op1": "Enlaces",
+    "Home": "inicio",
+    "derechos": "Todos los derechos reservados por",
     "polipriv": "Política de privacidad",
     "term": "Términos y condiciones"
   }

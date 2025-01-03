@@ -39,8 +39,6 @@ const Contactusform = () => {
         setIsOpen(true)
     }
 
-
-
     const t = useTranslations('contacto');
     return (
         <>

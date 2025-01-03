@@ -121,7 +121,10 @@
     "subtitulo": "Our latest post."
   },
   "Footer": {
-    "politicas": "Privacy Policy",
+    "op1": "Links",
+    "Home": "Home",
+    "derechos": "All rights reserved by",
+    "polipriv": "Privacy Policy",
     "term": "Terms and conditions"
   }
 }

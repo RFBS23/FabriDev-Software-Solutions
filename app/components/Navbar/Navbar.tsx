@@ -6,7 +6,6 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
-import Localswitcher from "@/app/components/Navbar/Localswitcher";
 import {useTranslations} from "next-intl";
 import LocalSwitcher from "@/app/components/Navbar/Localswitcher";
 
@@ -16,8 +15,6 @@ interface NavigationItem {
     current: boolean;
     target?: string;
 }
-
-
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
@@ -81,7 +78,6 @@ const Navbar = () => {
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform/>
                         </div>
-
 
                         {/* DRAWER FOR MOBILE VIEW */}
 

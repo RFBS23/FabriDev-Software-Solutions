@@ -17,8 +17,10 @@ import Footer from "@/app/components/Footer";
 import {Analytics} from "@vercel/analytics/next";
 
 export default function Home() {
+
   return (
       <main>
+          <Analytics/>
           <Navbar/>
           <Banner/>
           <Aboutus/>
