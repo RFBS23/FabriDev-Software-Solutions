@@ -138,10 +138,10 @@ const Footer = () => {
                         </div>
                         <div className="flex justify-center md:justify-end">
                             <span onClick={(e) => {e.preventDefault();openModal();}}>
-                                <h3 className="text-offwhite pr-6">{t('polipriv')}</h3>
+                                <h3 className="text-offwhite pr-6 cursor-pointer">{t('polipriv')}</h3>
                             </span>
                             <span onClick={(e) => {e.preventDefault();openModalTerminos();}}>
-                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">
+                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer cursor-pointer">
                                 {t('term')}</h3>
                             </span>
                         </div>
