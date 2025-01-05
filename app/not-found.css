@@ -1,6 +1,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::-webkit-scrollbar {
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  border-radius: 6px;
+}
+
 :root {
   scroll-behavior: smooth;
 }

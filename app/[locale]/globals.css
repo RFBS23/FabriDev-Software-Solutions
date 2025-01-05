@@ -8,6 +8,20 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+::-webkit-scrollbar {
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  border-radius: 6px;
+}
+
 body {
   margin: 0;
   font-family: 'Urbanist', sans-serif;
