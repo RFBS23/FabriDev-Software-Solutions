@@ -45,7 +45,7 @@
   },
   "Digital": {
     "titulo": "WHO WE ARE",
-    "descripcion": "We are a digital\nagency that builds\namazing products.",
+    "descripcion": "We are a digital company that creates amazing products.",
     "btndig": "Get started"
   },
   "Beliefs": {
@@ -121,10 +121,46 @@
     "subtitulo": "Our latest post."
   },
   "Footer": {
-    "op1": "Links",
+    "op1": "Explore",
+    "op2": "Add-ons",
+    "Contact": "Contact",
+    "Email": "Email",
+    "phone": "Phone",
     "Home": "Home",
+    "About": "About us",
+    "Services": "Services",
+    "FAQ": "Questions and Answers",
+    "Blog": "Blog",
+    "Testimonials": "Testimonials",
+    "Tienda": "Online Store",
     "derechos": "All rights reserved by",
     "polipriv": "Privacy Policy",
-    "term": "Terms and conditions"
+    "term": "Terms and conditions",
+    "txtcontacto": "If you have any questions or concerns, please contact us at:",
+    "precios": "Prices and payments",
+    "txtprecios": "Prices for services will be communicated in advance and payment must be made upon completion of the service, unless otherwise agreed.",
+    "garantias": "Warranties and Limitations",
+    "txtgarantia1": "We guarantee the correct installation and initial operation of the software.",
+    "txtgarantia2": "We are not responsible for damage caused by viruses, improper use of software, or unauthorized manipulation.",
+    "generalidad": "Generalities",
+    "txtgeneralidad": "We provide software development and customization services, program installation, and technical services.",
+    "txtterm1": "By contracting the services of ",
+    "txtterm2": "you accept the following terms and conditions. If you do not agree, please do not use our services",
+    "txtpriv": "In ",
+    "txtpriv2": "We value and respect your privacy. This document explains how we collect, use, and protect your personal information when you use our software development, program installation, and technical support services.",
+    "infopriv": "Information we collect",
+    "txtinfopriv1": "Personal information: Name, email, phone number, address, and other data necessary to provide our services.",
+    "txtinfopriv2": "Technical information: Data related to the device, such as operating system type and software installed.",
+    "txtinfopriv3": "Usage Information: Details about how you interact with our services.",
+    "usoinfo": "Use of information",
+    "titleusoinfo": "The information collected is used to:",
+    "txtusoinfo1": "Provide customized installation, development, and technical support services.",
+    "txtusoinfo2": "Communicate with you to resolve technical issues or answer queries.",
+    "txtusoinfo3": "Improve the quality of our services and develop new solutions.",
+    "txtusoinfo4": "Comply with legal obligations.",
+    "proteccion": "Protection of information",
+    "txtprotec": "We implement technical and organizational security measures to protect your information against unauthorized access, loss or alteration.",
+    "cambpolitcas": "Changes in policy",
+    "txtcambpoli": "We reserve the right to update this policy. Any changes will be notified through our website or by email."
   }
 }

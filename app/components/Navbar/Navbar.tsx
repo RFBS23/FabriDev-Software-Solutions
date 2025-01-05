@@ -40,54 +40,31 @@ const Navbar = () => {
                     <div className="relative flex h-12 sm:h-20 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
 
-                            {/* LOGO */}
-
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
                                     Fabridev
                                 </Link>
                             </div>
 
-                            {/* LINKS */}
-
-                            <div className="hidden lg:flex items-center border-right gap-4">
+                            <div className="hidden lg:flex items-center border-right gap-3">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
-                                        <Link
-                                            key={item.name}
-                                            href={item.href}
-                                            className={classNames(
-                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-black',
-                                                'px-3 py-4 rounded-md text-lg font-normal'
-                                            )}
-                                            aria-current={item.current ? 'page' : undefined}
-                                            target={item.target} // Usa target de NavigationItem
-                                            rel={item.target === '_blank' ? 'noopener noreferrer' : undefined} // Agrega rel para seguridad
-                                        >
+                                        <Link key={item.name} href={item.href} className={classNames(item.current ? 'bg-gray-900' : 'navlinks hover:text-black', 'px-3 py-4 rounded-md text-lg font-normal')} aria-current={item.href ? 'page' : undefined}>
                                             {item.name}
                                         </Link>
                                     ))}
-                                    <div>
-                                        <h5>{t('switch')} &#x1F310;</h5>
-                                        <LocalSwitcher/>
-                                    </div>
-
                                 </div>
-
+                                <div>
+                                    <h6>{t('switch')} &#x1F310;</h6>
+                                    <LocalSwitcher/>
+                                </div>
                             </div>
-                            {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform/>
+                            <Contactusform />
                         </div>
-
-                        {/* DRAWER FOR MOBILE VIEW */}
-
-                        {/* DRAWER ICON */}
 
                         <div className='block lg:hidden'>
-                        <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
+                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
-
-                        {/* DRAWER LINKS DATA */}
 
                         <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                             <Drawerdata />

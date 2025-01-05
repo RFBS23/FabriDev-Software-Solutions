@@ -45,7 +45,7 @@
   },
   "Digital": {
     "titulo": "QUIÉNES SOMOS",
-    "descripcion": "Somos una agencia\ndigital que crea\nproductos increíbles.",
+    "descripcion": "Somos una empresa digital que crea productos increíbles.",
     "btndig": "Get started"
   },
   "Beliefs": {
@@ -121,10 +121,46 @@
     "subtitulo": "Nuestra última publicación."
   },
   "Footer": {
-    "op1": "Enlaces",
-    "Home": "inicio",
+    "op1": "Explorar",
+    "op2": "Complementos",
+    "Contact": "Contacto",
+    "Email": "Correo electrónico",
+    "phone": "Telefono",
+    "Home": "Inicio",
+    "About": "Acerca de",
+    "Services": "Servicios",
+    "FAQ": "Preguntas y Respuestas",
+    "Blog": "Blog",
+    "Testimonials": "Testimonios",
+    "Tienda": "Tienda Virtual",
     "derechos": "Todos los derechos reservados por",
     "polipriv": "Política de privacidad",
-    "term": "Términos y condiciones"
+    "term": "Términos y condiciones",
+    "txtcontacto": "Si tienes dudas o inquietudes, contáctanos en:",
+    "precios": "Precios y pagos",
+    "txtprecios": "Los precios de los servicios serán comunicados previamente y el pago debe realizarse al momento de finalizar el servicio, salvo acuerdo previo.",
+    "garantias": "Garantías y limitaciones",
+    "txtgarantia1": "Garantizamos la correcta instalación y funcionamiento inicial del software.",
+    "txtgarantia2": "No nos hacemos responsables por daños causados por virus, uso indebido del software, o manipulación no autorizada.",
+    "generalidad": "Generalidades",
+    "txtgeneralidad": "Proveemos servicios de desarrollo y personalización de software, instalación de programas, y servicios técnicos.",
+    "txtterm1": "Al contratar los servicios de ",
+    "txtterm2": "aceptas los siguientes términos y condiciones. Si no estás de acuerdo, por favor no utilices nuestros servicios.",
+    "txtpriv": "En ",
+    "txtpriv2": "valoramos y respetamos tu privacidad. Este documento explica cómo recopilamos, usamos y protegemos tu información personal cuando utilizas nuestros servicios de desarrollo de software, instalación de programas, y soporte técnico.",
+    "infopriv": "Información que recopilamos",
+    "txtinfopriv1": "Información personal: Nombre, correo electrónico, número de teléfono, dirección, y otros datos necesarios para prestar nuestros servicios.",
+    "txtinfopriv2": "Información técnica: Datos relacionados con el dispositivo, como tipo de sistema operativo y software instalado.",
+    "txtinfopriv3": "Información de uso: Detalles sobre cómo interactúas con nuestros servicios.",
+    "usoinfo": "Uso de la información",
+    "titleusoinfo": "La información recopilada se utiliza para:",
+    "txtusoinfo1": "Proveer servicios personalizados de instalación, desarrollo, y soporte técnico.",
+    "txtusoinfo2": "Comunicarnos contigo para resolver problemas técnicos o responder consultas.",
+    "txtusoinfo3": "Mejorar la calidad de nuestros servicios y desarrollar nuevas soluciones.",
+    "txtusoinfo4": "Cumplir con obligaciones legales.",
+    "proteccion": "Protección de la información",
+    "txtprotec": "Implementamos medidas de seguridad técnicas y organizativas para proteger tu información contra accesos no autorizados, pérdidas o alteraciones.",
+    "cambpolitcas": "Cambios en la política",
+    "txtcambpoli": "Nos reservamos el derecho de actualizar esta política. Cualquier cambio será notificado a través de nuestro sitio web o por correo electrónico."
   }
 }

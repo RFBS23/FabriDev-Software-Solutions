@@ -15,7 +15,6 @@ const Digital = () => {
                         <h3 className="text-lg font-normal text-white mb-5 tracking-widest text-center lg:text-start">{t('titulo')}</h3>
                         <h4 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug text-center lg:text-start">{t('descripcion')}</h4>
                         <div className="text-center lg:text-start">
-                            <button className="text-xl font-semibold text-white bg-transparent py-4 px-12 hover:bg-transparent rounded-full cursor-default"></button>
                         </div>
                     </div>
 
