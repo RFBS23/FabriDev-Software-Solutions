@@ -10,16 +10,19 @@
 
 ::-webkit-scrollbar {
   border-radius: 6px;
+  cursor: url('/images/logo/mano.png'), auto;
 }
 
 ::-webkit-scrollbar-thumb {
   background: darkgray;
   border-radius: 6px;
+  cursor: url('/images/logo/mano.png'), auto;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: gray;
   border-radius: 6px;
+  cursor: url('/images/logo/mano.png'), auto;
 }
 
 body {
