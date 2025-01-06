@@ -48,6 +48,7 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [fa
 
 ## Desarrollador
 
-<h3><b>Aplicacion Desarrollada por:</b> Fabrizio Barrios Saavedra ([RFBS23](https://portafolio-fabridev.vercel.app) - [FabriDev](https://fabridev.vercel.app/es))</h3>
+<h3><b>Aplicación Desarrollada por:</b> Fabrizio Barrios Saavedra (<a href="https://portafolio-fabridev.vercel.app" target="_blank">RFBS23</a> - <a href="https://fabridev.vercel.app/es" target="_blank">FabriDev</a>)</h3>
+
 <img src="public/images/logo/fotomia.jpg" width="150" alt="avatar">
 ---
