@@ -20,11 +20,11 @@ const MultipleItems: React.FC = () => {
     const postData: DataType[] = [
         {
             time: "5 min",
-            heading: 'Escanea códigos QR',
-            heading2: 'Con nuestra app Flutter',
-            name: "Publicado por FabriDev",
-            date: '6 de junio del 2024',
-            imgSrc: '/images/articles/article.png',
+            heading: 'tituloscanner',
+            heading2: 'subtituloscanner',
+            name: "publicacion",
+            date: t('fecha'),
+            imgSrc: '/images/articles/scannerqr.png',
         },
         {
             time: "5 min",

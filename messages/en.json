@@ -83,6 +83,33 @@
     "fundador": "Founder",
     "nombre": "Fabrizio Barrios"
   },
+  "Manage": {
+    "titulo": "Everything you need for your digital business in one place.",
+    "garantia": "Get 3 months warranty",
+    "planbastitulo": "Basic",
+    "planbassubtitulo": "$40.03",
+    "planbassubtitulo2": "by project",
+    "planbasico1": "✔ Installation of up to 3 programs",
+    "planbasico2": "✔ Basic system configuration",
+    "planbasico3": "✔ Technical support for 15 days",
+    "planbasico4": "✔ Initial equipment review",
+    "planbastitulo2": "Professional",
+    "planbassub2": "$80.06",
+    "planbasico12": "✔ Unlimited program installation",
+    "planbasico22": "✔ Advanced system configuration",
+    "planbasico32": "✔ 30-day technical support",
+    "planbasico42": "✔ Performance optimization",
+    "planbastitulo3": "Business",
+    "planbassubtitulo3": "$133.43",
+    "planbasico13": "✔ Custom software development",
+    "planbasico23": "✔ Advanced installation and configuration",
+    "planbasico33": "✔ technical support for 60 days",
+    "planbasico43": "✔ Complete system audit",
+    "soporte": "24/7 Technical Support",
+    "soporte2": "24/7 VIP Support",
+    "instalacion": "Quick and customized installation",
+    "solempresa": "Business Solutions"
+  },
   "Faq": {
     "titulo": "Frequently Asked Questions",
     "subtitulo": "Frequently asked questions.",
@@ -118,7 +145,11 @@
   },
   "Articulos": {
     "titulo": "Articles",
-    "subtitulo": "Our latest post."
+    "subtitulo": "Our latest post.",
+    "tituloscanner": "Scan QR codes",
+    "subtituloscanner": "An app made with Flutter",
+    "publicacion": "Posted by FabriDev",
+    "fecha": "June 6, 2024"
   },
   "Footer": {
     "op1": "Explore",

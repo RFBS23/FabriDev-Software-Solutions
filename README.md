@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FabriDev Software Solutions - Landing page
 
-## Getting Started
+Una landing page diseñada para destacar y promocionar servicios, productos o ideas de manera profesional y atractiva.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Diseño moderno y responsivo**: Optimizado para dispositivos móviles y de escritorio.
+- **Carga rápida**: Implementación de optimizaciones para mejorar la experiencia del usuario.
+- **Secciones clave**: Información clara y directa sobre los servicios ofrecidos.
+- **Imágenes redondeadas**: Visualización personalizada.
+- **Estilo manejable**: Utiliza clases dinámicas de Tailwind CSS.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tecnologías utilizadas
 
-## Learn More
+- **Next.js**: Framework para React que permite renderizado estático y dinámico.
+- **Tailwind CSS**: Framework CSS para diseño rápido y consistente.
+- **TypeScript** *(opcional)*: Tipado seguro para mayor robustez.
+- **i18n** *(opcional)*: Soporte multilenguaje.
+- **Vercel**: Hospedaje y despliegue.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Vista previa
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Captura de pantalla](public/images/logo/screenshot.png)  
+*Describe qué aparece en la captura.*
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE.txt) para más detalles.
+
+---
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [fabriziobarrios92@gmail.com](mailto:fabriziobarrios92@gmail.com).
+- **Autor**: Fabrizio Barrios Saavedra.
+- **Portafolio**: [Mi Portafolio](https://portafolio-fabridev.vercel.app).
+- **Mi Landing Page**: [FabriDev](https://fabridev.vercel.app/es)
+
+---
+
+## Desarrollador
+
+<h3><b>Aplicacion Desarrollada por:</b> Fabrizio Barrios Saavedra ([RFBS23](https://portafolio-fabridev.vercel.app) - [FabriDev](https://fabridev.vercel.app/es))</h3>
+<img src="public/images/logo/fotomia.jpg" width="150" alt="avatar">
+---

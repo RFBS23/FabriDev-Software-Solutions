@@ -8,6 +8,10 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+*{
+  user-select: none;
+}
+
 ::-webkit-scrollbar {
   border-radius: 6px;
   cursor: url('/images/logo/mano.png'), auto;

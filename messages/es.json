@@ -83,6 +83,33 @@
     "fundador": "Fundador",
     "nombre": "Fabrizio Barrios"
   },
+  "Manage": {
+    "titulo": "Todo lo que Necesitas para Tu Negocio Digital en un Solo Lugar.",
+    "garantia": "Obtenga 3 meses de garantia",
+    "planbastitulo": "Básico",
+    "planbassubtitulo": "S/150",
+    "planbassubtitulo2": "por proyecto",
+    "planbasico1": "✔ Instalación de hasta 3 programas",
+    "planbasico2": "✔ Configuración básica del sistema",
+    "planbasico3": "✔ Soporte técnico por 15 días",
+    "planbasico4": "✔ Revisión inicial del equipo",
+    "planbastitulo2": "Profesional",
+    "planbassub2": "S/300",
+    "planbasico12": "✔ Instalación de programas ilimitados",
+    "planbasico22": "✔ Configuración avanzada del sistema",
+    "planbasico32": "✔ Soporte técnico por 30 días",
+    "planbasico42": "✔ Optimización de rendimiento",
+    "planbastitulo3": "Empresarial",
+    "planbassubtitulo3": "S/500",
+    "planbasico13": "✔ Desarrollo de software personalizado",
+    "planbasico23": "✔ Instalación y configuración avanzada",
+    "planbasico33": "✔ Soporte técnico por 60 días",
+    "planbasico43": "✔ Auditoría completa del sistema",
+    "soporte": "Soporte técnico 24/7",
+    "soporte2": "Soporte VIP 24/7",
+    "instalacion": "Instalación rápida y personalizada",
+    "solempresa": "Soluciones empresariales"
+  },
   "Faq": {
     "titulo": "Preguntas Frecuentes",
     "subtitulo": "Preguntas mas Frecuentes.",
@@ -118,7 +145,11 @@
   },
   "Articulos": {
     "titulo": "Articulos",
-    "subtitulo": "Nuestra última publicación."
+    "subtitulo": "Nuestra última publicación.",
+    "tituloscanner": "Escanea códigos QR",
+    "subtituloscanner": "Una app hecha con Flutter",
+    "publicacion": "Publicado por FabriDev",
+    "fecha": "6 de junio del 2024"
   },
   "Footer": {
     "op1": "Explorar",
