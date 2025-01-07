@@ -95,7 +95,7 @@
     "planbasico4": "✔ Initial equipment review",
     "planbastitulo2": "Professional",
     "planbassub2": "$80.06",
-    "planbasico12": "✔ Unlimited program installation",
+    "planbasico12": "✔ Installing 15 programs",
     "planbasico22": "✔ Advanced system configuration",
     "planbasico32": "✔ 30-day technical support",
     "planbasico42": "✔ Performance optimization",
@@ -108,7 +108,26 @@
     "soporte": "24/7 Technical Support",
     "soporte2": "24/7 VIP Support",
     "instalacion": "Quick and customized installation",
-    "solempresa": "Business Solutions"
+    "solempresa": "Business Solutions",
+    "contacto": "Contact us",
+    "toggle1": "Technical Services",
+    "toggle2": "Systems Services",
+    "webdesign": "Mockup and UX/UI Design",
+    "preciowebdesign": "$66.20",
+    "preciosoft": "$195.92",
+    "preciomobile": "$251.51",
+    "softmedida": "Software",
+    "mobile": "Mobile Applications",
+    "webdes1": "✔ Creation of prototypes and mockups",
+    "webdes2": "✔ UX/UI design focused on user experience",
+    "webdes3": "✔ Revisions and adjustments according to needs",
+    "soft1": "✔ Development of custom systems (web or desktop)",
+    "soft2": "✔ Integration with databases",
+    "soft3": "✔ Technical documentation",
+    "android1": "✔ Development of mobile applications for Android or iOS",
+    "android2": "✔ Responsive and modern design",
+    "android3": "✔ Testing and optimization",
+    "oferta": "special offer"
   },
   "Faq": {
     "titulo": "Frequently Asked Questions",
@@ -150,6 +169,12 @@
     "subtituloscanner": "An app made with Flutter",
     "publicacion": "Posted by FabriDev",
     "fecha": "June 6, 2024"
+  },
+  "Joinus": {
+    "titulo": "Follow us on YouTube!",
+    "subtitulo": "Help us continue creating",
+    "subtitulo2": "more content for you",
+    "boton": "¡Subscribe!"
   },
   "Footer": {
     "op1": "Explore",

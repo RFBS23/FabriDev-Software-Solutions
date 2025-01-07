@@ -9,7 +9,7 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 *{
-  user-select: none;
+   user-select: none;
 }
 
 ::-webkit-scrollbar {

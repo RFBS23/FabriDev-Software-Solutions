@@ -95,7 +95,7 @@
     "planbasico4": "✔ Revisión inicial del equipo",
     "planbastitulo2": "Profesional",
     "planbassub2": "S/300",
-    "planbasico12": "✔ Instalación de programas ilimitados",
+    "planbasico12": "✔ Instalación de 15 programas",
     "planbasico22": "✔ Configuración avanzada del sistema",
     "planbasico32": "✔ Soporte técnico por 30 días",
     "planbasico42": "✔ Optimización de rendimiento",
@@ -108,7 +108,26 @@
     "soporte": "Soporte técnico 24/7",
     "soporte2": "Soporte VIP 24/7",
     "instalacion": "Instalación rápida y personalizada",
-    "solempresa": "Soluciones empresariales"
+    "solempresa": "Soluciones empresariales",
+    "contacto": "contactate con nosotros",
+    "toggle1": "Servicios Técnicos",
+    "toggle2": "Servicios de Sistemas",
+    "webdesign": "Mockup y Diseño UX/UI",
+    "preciowebdesign": "S/250",
+    "preciosoft": "S/740",
+    "preciomobile": "S/950",
+    "softmedida": "Software",
+    "mobile": "Aplicaciones Móviles",
+    "webdes1": "✔ Creación de prototipos y mockups",
+    "webdes2": "✔ Diseño UX/UI enfocado en la experiencia del usuario",
+    "webdes3": "✔ Revisiones y ajustes según necesidades",
+    "soft1": "✔ Desarrollo de sistemas personalizados (web o escritorio)",
+    "soft2": "✔ Integración con bases de datos",
+    "soft3": "✔ Documentación técnica",
+    "android1": "✔ Desarrollo de aplicaciones móviles para Android o iOS",
+    "android2": "✔ Diseño responsivo y moderno",
+    "android3": "✔ Pruebas y optimización",
+    "oferta": "oferta especial"
   },
   "Faq": {
     "titulo": "Preguntas Frecuentes",
@@ -150,6 +169,12 @@
     "subtituloscanner": "Una app hecha con Flutter",
     "publicacion": "Publicado por FabriDev",
     "fecha": "6 de junio del 2024"
+  },
+  "Joinus": {
+    "titulo": "¡Síguenos en YouTube!",
+    "subtitulo": "ayudanos a seguir creando",
+    "subtitulo2": "mas contenido para ti",
+    "boton": "¡Suscríbete!"
   },
   "Footer": {
     "op1": "Explorar",

@@ -46,7 +46,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
 
-                            <div className="hidden lg:flex items-center border-right gap-3">
+                            <div className="hidden lg:flex items-center border-right gap-4">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
                                         <Link key={item.name} href={item.href} className={classNames(item.current ? 'bg-gray-900' : 'navlinks hover:text-black', 'px-3 py-4 rounded-md text-lg font-normal')} aria-current={item.href ? 'page' : undefined}>
