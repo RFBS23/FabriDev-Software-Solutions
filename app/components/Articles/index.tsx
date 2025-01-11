@@ -19,7 +19,7 @@ const MultipleItems: React.FC = () => {
 
     const postData: DataType[] = [
         {
-            time: "5 min",
+            time: t('btnver'),
             heading: 'tituloscanner',
             heading2: 'subtituloscanner',
             name: "publicacion",
@@ -109,8 +109,11 @@ const MultipleItems: React.FC = () => {
                         <div key={i}>
                             <div className="bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative">
                                 <Image src={items.imgSrc} alt={items.imgSrc} width={389} height={262} className="inline-block m-auto" />
-                                <Link href="/">
-                                    <h3 className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img">{items.time} read</h3>
+                                <Link href="#">
+                                    <h3 className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-4 rounded-full article-img">{items.time} <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
+                                        </svg>
+                                    </h3>
                                 </Link>
                                 <h4 className="text-2xl font-bold pt-6 text-black">{t(items.heading)}</h4>
                                 <h4 className="text-2xl font-bold pt-1 text-black">{t(items.heading2)}</h4>

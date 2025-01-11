@@ -86,6 +86,7 @@
   "Manage": {
     "titulo": "Todo lo que Necesitas para Tu Negocio Digital en un Solo Lugar.",
     "garantia": "Obtenga 3 meses de garantia",
+    "desde": "desde",
     "planbastitulo": "Básico",
     "planbassubtitulo": "S/150",
     "planbassubtitulo2": "por proyecto",
@@ -163,6 +164,7 @@
     "nombre4": "Marta Sánchez"
   },
   "Articulos": {
+    "btnver": "Ver más",
     "titulo": "Articulos",
     "subtitulo": "Nuestra última publicación.",
     "tituloscanner": "Escanea códigos QR",

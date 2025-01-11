@@ -86,6 +86,7 @@
   "Manage": {
     "titulo": "Everything you need for your digital business in one place.",
     "garantia": "Get 3 months warranty",
+    "desde": "from",
     "planbastitulo": "Basic",
     "planbassubtitulo": "$40.03",
     "planbassubtitulo2": "by project",
@@ -163,6 +164,7 @@
     "nombre4": "Marta Sánchez"
   },
   "Articulos": {
+    "btnver": "See more",
     "titulo": "Articles",
     "subtitulo": "Our latest post.",
     "tituloscanner": "Scan QR codes",
